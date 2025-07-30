@@ -3,80 +3,118 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        
+        <!-- SEO Title -->
+        <title>INTERIA | Modern Interior Design & Stylish Home Solutions</title>
+        
+        <!-- Meta Description -->
+        <meta name="description" content="INTERIA transforms your living spaces with modern interior design, elegant furniture, and customized home décor solutions. Discover timeless design for your dream home.">
+        
+        <!-- Meta Keywords -->
+        <meta name="keywords" content="interior design, home decoration, modern furniture, stylish home solutions, INTERIA interiors, home renovation ideas, minimalist design, elegant interiors">
+        
+        <!-- Author & Contact -->
+        <meta name="author" content="INTERIA Design Studio">
+        <meta name="designer" content="INTERIA Web Team">
+        <meta name="publisher" content="INTERIA">
+        <meta name="contact" content="support@interia.com">
+        
+        <!-- Robots -->
+        <meta name="robots" content="index, follow">
+        
+        <!-- Open Graph for Social Media -->
+        <meta property="og:title" content="INTERIA | Modern Interior Design & Stylish Home Solutions">
+        <meta property="og:description" content="Transform your home with INTERIA’s modern interiors and elegant décor solutions. Timeless design, tailored for your lifestyle.">
+        <meta property="og:image" content="img/interia-preview.jpg">
+        <meta property="og:url" content="https://www.interia.com">
+        <meta property="og:type" content="website">
+
+        <!-- Favicon -->
+        <link rel="icon" href="img/interia-favicon.png" type="image/png">
+
+        <!-- CSS Files -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
 
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
+
     <body>
-        <header>
+        <header id="home">
             <div class="container">
                 <div class="header-flex">
                     <div class="logo-are">
                         <div class="header-logo">
-                            <a href="index.html">
-                                <span>INTERIA</span>
+                            <a href="index.html" title="INTERIA Home - Modern Interior Design">
+                               <span>INTERIA</span>
                             </a>
                         </div>
                         <div class="swipe-down">
-                            <a href="#about"><p>SWIPE DOWN</p></a>
+                            <a href="#about" title="Scroll down to learn more about INTERIA"><p>SWIPE DOWN</p></a>
                         </div>
                     </div>
 
-                    <!-- Modern Hamburger Icon -->
-                    <div class="menu-icon" id="menu-icon">
+                    <!-- Menu Icon -->
+                    <div class="menu-icon" id="menu-icon" aria-label="Navigation Menu">
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
 
+                    <!-- Navigation Menu -->
                     <div class="header-nav" id="header-nav">
                         <nav>
                             <ul>
-                                <li><a href="#">home</a></li>
-                                <li><a href="#">pages</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">team</a></li>
-                                <li><a href="#">blog</a></li>
+                                <li><a href="#home" title="Go to Home">Home</a></li>
+                                <li><a href="#about" title="Learn more About Us">About</a></li>
+                                <li><a href="#service" title="Explore Our Services">Services</a></li>
+                                <li><a href="#team" title="Meet Our Team">Team</a></li>
+                                <li><a href="#blog" title="Read Our Blog">Blog</a></li>
                             </ul>
                         </nav>
                         <div class="header-btn">
-                            <a href="#" class="header-btn">GET STARTED</a>
+                            <a href="#about" class="header-btn" title="Get Started with INTERIA">GET STARTED</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Hero Context -->
                 <div class="hero-context">
-                    <h1>We design your room aesthetic</h1>
-                    <p>Lectus quam id leo in vitae turpis nisi porta lorem mollis.</p>
-                    <img src="images/Play-Button.png" alt="">
+                    <h1>Transforming homes with style</h1>
+                    <p>Elegant designs crafted to enhance every corner of your space.</p>
+                    <a href="#about" title="Play Intro Video">
+                        <img src="images/Play-Button.png" alt="Play Intro Video Button" />
+                    </a>
                 </div>
             </div>
         </header>
+
         <main>
             <!-- ========================= About Section Start ======================== -->
             <section id="about" class="about-section">
                 <div class="container">
                     <div class="about-title">
                         <small class="primary-title">ABOUT</small>
-                        <h2 class="secondary-title">We are the best interior design studio in london</h2>
-                        <p>Posuere urna nec tincidunt praesent. Egestas maecenas pharetra convallis posuere. Ipsum nunc aliquet bibendum enim. Sem integer vitae justo eget magna fermentum iaculis eu non.</p>
+                        <h2 class="secondary-title">Crafting timeless interiors for modern living</h2>
+                        <p>We create elegant and functional spaces that reflect your lifestyle. 
+                        Our expert team combines creativity, innovation, and craftsmanship to deliver 
+                        interiors that inspire comfort and beauty.</p>
                     </div>
                     <div class="about-grid">
                         <div class="about-image-1">
-                            <img src="images/about-img-1.png" alt="">
-                            <img src="images/about-img-2.png" alt="">
+                            <img src="images/about-img-1.png" alt="Modern living room with elegant interior design">
+                            <img src="images/about-img-2.png" alt="Luxury bedroom interior with warm lighting">
                         </div>
                         <div class="about-sm-flex">
                             <div class="about-img-flex">
                                 <div class="about-image-2">
-                                    <img src="images/about-img-3.png" alt="">
+                                    <img src="images/about-img-3.png" alt="Creative workspace designed by INTERIA team">
                                 </div>
                                 <div class="about-btn">
-                                    <a href="#">LEARN ABOUT</a>
+                                    <a href="#contact" title="Learn more about INTERIA">LEARN ABOUT</a>
                                 </div>
                             </div>
                             <div class="countdown-flex">
@@ -97,7 +135,7 @@
                     </div>
                 </div>
             </section>
-            <!-- ========================= About SEction End ======================== -->
+            <!-- ========================= About Section End ======================== -->
 
 
             <!-- ========================= Hire Us Section Start ======================== -->
@@ -106,11 +144,11 @@
                     <div class="hire-bg">
                         <div class="hire-flex">
                             <div class="hire-img">
-                                <img src="images/hire-image.png" alt="">
+                                <img src="images/hire-image.png" alt="Interior designer working on modern home layout">
                             </div>
                             <div class="hire-details">
-                                <h2>Blending creativity and functionality in every design</h2>
-                                <a href="#" class="hire-btn">HIRE US NOW</a>
+                                <h2>Turning your vision into elegant and livable spaces</h2>
+                                <a href="#contact" class="hire-btn" title="Get in touch with INTERIA">HIRE US NOW</a>
                             </div>
                         </div>
                     </div>
@@ -120,96 +158,111 @@
 
 
             <!-- ========================= Team Section Start ======================== -->
-            <section id="review" class="team-section">
+            <section class="team-section">
                 <div class="container">
-                    <div class="team-grid">
+                    <div class="team-grid" id="team">
                         <div class="team-details">
                             <small class="primary-title">TEAMS</small>
-                            <h2 class="secondary-title">Projects are handled by  professional certified teams</h2>
-                            <p>Posuere urna nec tincidunt praesent egestas maecenas pharetra convallis posuere ipsum nunc aliquet bibendum enim consectetur adipiscing.</p>
+                            <h2 class="secondary-title">Driven by certified experts to deliver exceptional interiors</h2>
+                            <p>Our skilled designers and project managers bring creativity and precision to every project, ensuring spaces that combine comfort, function, and style.</p>
                             <div class="ratings-view">
                                 <div class="team-group-image">
-                                    <img src="images/review-group.png" alt="">
+                                    <img src="images/review-group.png" alt="Satisfied client group giving positive reviews">
                                 </div>
                                 <div class="rating-star-flex">
-                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="Customer rating stars">
                                     <span>(4.5 reviews)</span>
                                 </div>
                                 <p>TRUSTED BY CUSTOMERS</p>
                             </div>
                         </div>
+                        
                         <div class="team-image">
                             <div class="team-team-grid">
                                 <div class="team-team-1">   
-                                    <img src="images/team1.png" alt="">
-                                    <img src="images/team2.png" alt="">
+                                    <img src="images/team1.png" alt="Interior designer collaborating on project">
+                                    <img src="images/team2.png" alt="Team member discussing design concepts">
                                 </div>
                                 <div class="team-team-2">
                                     <div class="team-teambtn">
-                                        <a href="#" class="team-btn">LEARN TEAMS</a>
+                                        <a href="#" class="team-btn" title="Meet Our Professional Team">LEARN TEAMS</a>
                                     </div>
-                                    <img src="images/team3.png" alt="">
+                                    <img src="images/team3.png" alt="Creative designer working on interior plans">
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="brand-section">
                         <div class="brand-grid">
                             <div class="brand-img">
-                                <img src="images/BrandLogo1.png" alt="">
+                                <img src="images/BrandLogo1.png" alt="Brand partner 1 logo">
                             </div>
                             <div class="brand-img">
-                                <img src="images/BrandLogo2.png" alt="">
+                                <img src="images/BrandLogo2.png" alt="Brand partner 2 logo">
                             </div>
                             <div class="brand-img">
-                                <img src="images/BrandLogo3.png" alt="">
+                                <img src="images/BrandLogo3.png" alt="Brand partner 3 logo">
                             </div>
                             <div class="brand-img">
-                                <img src="images/BrandLogo4.png" alt="">
+                                <img src="images/BrandLogo4.png" alt="Brand partner 4 logo">
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- ========================= End ======================== -->
+            <!-- ========================= ETeam Section End ======================== -->
 
 
             <!-- ========================= Service Section Start ======================== -->
             <section id="service" class="service-section">
                 <div class="container">
+
                     <div class="service-card">
                         <div class="service-heading">
-                            <h3>01. Interior design</h3>
+                            <h3>01. Interior Design</h3>
                         </div>
                         <div class="service-details">
-                            <p>Posuere urna nec tincidunt praesent egestas maecenas pharetra convallis posuere ipsum nunc aliquet bibendum enim consectetur adipiscing.</p>
-                            <div class="service-btn ">
-                                <a href="#">LEARN MORE<img src="images/angle-right.png" alt=""></a>
+                            <p>We craft stylish and functional interiors that reflect your lifestyle, blending comfort and elegance in every detail.</p>
+                            <div class="service-btn">
+                                <a href="#contact" title="Learn more about our interior design service">
+                                    LEARN MORE
+                                    <img src="images/angle-right.png" alt="Right arrow icon">
+                                </a>
                             </div>
                         </div>
                     </div>
+
                     <div class="service-card">
                         <div class="service-heading">
-                            <h3>02. Furniture design</h3>
+                            <h3>02. Furniture Design</h3>
                         </div>
                         <div class="service-details">
-                            <p>Posuere urna nec tincidunt praesent egestas maecenas pharetra convallis posuere ipsum nunc aliquet bibendum enim consectetur adipiscing.</p>
-                            <div class="service-btn ">
-                                <a href="#">LEARN MORE<img src="images/angle-right.png" alt=""></a>
+                            <p>Our custom furniture pieces are designed to perfectly complement your interiors, offering both style and practicality.</p>
+                            <div class="service-btn">
+                                <a href="#contact" title="Learn more about our furniture design service">
+                                    LEARN MORE
+                                    <img src="images/angle-right.png" alt="Right arrow icon">
+                                </a>
                             </div>
                         </div>
                     </div>
+
                     <div class="service-card">
                         <div class="service-heading">
-                            <h3>03. Landscape design</h3>
+                            <h3>03. Landscape Design</h3>
                         </div>
                         <div class="service-details">
-                            <p>Posuere urna nec tincidunt praesent egestas maecenas pharetra convallis posuere ipsum nunc aliquet bibendum enim consectetur adipiscing.</p>
-                            <div class="service-btn ">
-                                <a href="#">LEARN MORE<img src="images/angle-right.png" alt=""></a>
+                            <p>Transform your outdoor spaces into serene and inviting environments with our creative and sustainable landscape solutions.</p>
+                            <div class="service-btn">
+                                <a href="#contact" title="Learn more about our landscape design service">
+                                    LEARN MORE
+                                    <img src="images/angle-right.png" alt="Right arrow icon">
+                                </a>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </section>
             <!-- ========================= Service Section End ======================== -->
@@ -218,10 +271,10 @@
             <!-- ========================= Gallery Section Start ======================== -->
             <section id="gallery" class="gallery-section">
                 <div class="gallery-grid">
-                    <img src="images/Gallery-01.png" alt="">
-                    <img src="images/Gallery-02.png" alt="">
-                    <img src="images/Gallery-03.png" alt="">
-                    <img src="images/Gallery-04.png" alt="">
+                    <img src="images/Gallery-01.png" alt="Modern living room interior with cozy sofa and wall art">
+                    <img src="images/Gallery-02.png" alt="Elegant dining area with wooden furniture and pendant lights">
+                    <img src="images/Gallery-03.png" alt="Contemporary bedroom design with warm lighting and minimal decor">
+                    <img src="images/Gallery-04.png" alt="Stylish open space with indoor plants and artistic elements">
                 </div>
             </section>
             <!-- ========================= Gallery Section End ======================== -->
@@ -232,39 +285,51 @@
                 <div class="container">
                     <div class="blog-title">
                         <small class="primary-title">BLOG</small>
-                        <h2 class="secondary-title">The latest article</h2>
-                    </div>
-                    <div class="blog-grid">
-                        <div class="blog-card">
-                            <img src="images/Blog-1.png" alt="">
-                            <div class="blog-details">
-                                <p>Posuere urna nec tincidunt praesent egestas maecenas.</p>
-                                <div class="blog-btn">
-                                    <a href="#">LEARN MORE<img src="images/angle-right.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-card">
-                            <img src="images/Blog-2.png" alt="">
-                            <div class="blog-details">
-                                <p>Posuere urna nec tincidunt praesent egestas maecenas.</p>
-                                <div class="blog-btn">
-                                    <a href="#">LEARN MORE<img src="images/angle-right.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-card">
-                            <img src="images/Blog-3.png" alt="">
-                            <div class="blog-details">
-                                <p>Posuere urna nec tincidunt praesent egestas maecenas.</p>
-                                <div class="blog-btn">
-                                    <a href="#">LEARN MORE<img src="images/angle-right.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
+                        <h2 class="secondary-title">Explore Our Latest Insights</h2>
                     </div>
 
-                    <div class="newsletter-section">
+                    <div class="blog-grid">
+
+                        <div class="blog-card">
+                            <img src="images/Blog-1.png" alt="Modern living room with neutral tones and cozy furniture">
+                            <div class="blog-details">
+                                <p>Discover simple interior tricks to transform small living spaces into modern, cozy retreats.</p>
+                                <div class="blog-btn">
+                                    <a href="#contact">LEARN MORE
+                                        <img src="images/angle-right.png" alt="Arrow icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <img src="images/Blog-2.png" alt="Stylish dining space with wooden chairs and pendant lighting">
+                            <div class="blog-details">
+                                <p>Learn how furniture selection and layout can create harmony in your home design.</p>
+                                <div class="blog-btn">
+                                    <a href="#contact">LEARN MORE
+                                        <img src="images/angle-right.png" alt="Arrow icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <img src="images/Blog-3.png" alt="Minimalist bedroom with soft lighting and modern decor">
+                            <div class="blog-details">
+                                <p>Explore the latest trends in minimalist bedrooms that balance comfort and elegance.</p>
+                                <div class="blog-btn">
+                                    <a href="#contact">LEARN MORE
+                                        <img src="images/angle-right.png" alt="Arrow icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Newsletter Section -->
+                    <div class="newsletter-section" id="contact">
                         <div class="newsletter-title">
                             <h2 class="secondary-title">Newsletter</h2>
                         </div>
@@ -281,6 +346,7 @@
                             </form>
                         </div>
                     </div>
+
                 </div>
             </section>
             <!-- ========================= Latest Blog Section End ======================== -->
@@ -290,46 +356,57 @@
         <footer>
             <div class="footer-bg">
                 <div class="container">
+
+                    <!-- Footer Navigation & Logo -->
                     <div class="footer-top">
                         <div class="footer-list">
                             <ul>
-                                <li><a href="#home">home</a></li>
-                                <li><a href="#about">about</a></li>
-                                <li><a href="#services">services</a></li>
-                                <li><a href="#team">team</a></li>
-                                <li><a href="#blog">blog</a></li>
-                                <li><a href="#contact">contact</a></li>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#service">Services</a></li>
+                                <li><a href="#team">Team</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                         <div class="footer-logo">
                             <span>INTERIA</span>
                         </div>
                     </div>
+
+                    <!-- Social Media & Description -->
                     <div class="footer-middle">
                         <div class="social-media-icon">
                             <ul>
-                                <li><a href="#"><img src="images/Facebook.png" alt=""></a></li>
-                                <li><a href="#"><img src="images/Twitter.png" alt=""></a></li>
-                                <li><a href="#"><img src="images/Linkedin.png" alt=""></a></li>
-                                <li><a href="#"><img src="images/Instagram.png" alt=""></a></li>
+                                <li><a href="https://www.facebook.com/" target="_blank">
+                                    <img src="images/Facebook.png" alt="Follow Interia on Facebook"></a></li>
+                                <li><a href="https://x.com/" target="_blank">
+                                    <img src="images/Twitter.png" alt="Follow Interia on X (Twitter)"></a></li>
+                                <li><a href="https://www.linkedin.com/" target="_blank">
+                                    <img src="images/Linkedin.png" alt="Connect with Interia on LinkedIn"></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank">
+                                    <img src="images/Instagram.png" alt="Follow Interia on Instagram"></a></li>
                             </ul>
                         </div>
                         <div class="footer-text">
-                            <p>Posuere urna nec tincidunt praesent egestas maecenas pharetra convallis posuere ipsum nunc.</p>
+                            <p>INTERIA creates timeless interiors that blend style, function, and creativity, reflecting your unique lifestyle beautifully.</p>
                         </div>
                     </div>
+
                 </div>
             </div>
+
+            <!-- Copyright -->
             <div class="footer-copyright-bg">
                 <div class="container">
                     <div class="footer-bottom">
                         <div class="footer-copyright">
-                            <p>© Copyright by AltDesain-Studio – All right reserved.</p>
+                            <p>© 2025 INTERIA. All rights reserved.</p>
                         </div>
                         <div class="footer-copyright-link">
                             <ul>
-                                <li><a href="#">TERMS</a></li>
-                                <li><a href="#">PRIVACY</a></li>
+                                <li><a href="terms.html" target="_blank">TERMS</a></li>
+                                <li><a href="privacy.html" target="_blank">PRIVACY</a></li>
                             </ul>
                         </div>
                     </div>

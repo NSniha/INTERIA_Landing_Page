@@ -835,6 +835,7 @@
     .countdown-details > p {
         font-size: 12px;
         letter-spacing: 3.88px;
+        padding: 0px 15px;
     }
 
     .countdown-details > h3 {
@@ -1036,11 +1037,11 @@
     }
 
     .footer-middle {
-        padding: 60px 0px 0px 0px;
+        padding: 50px 0px 0px 0px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 50px;
+        gap: 40px;
         flex-direction: column;
     }
 
@@ -1073,6 +1074,75 @@
     .secondary-title {
         font-size: 30px;
     }
+
+    .subpage-section {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .subpage-text-title {
+        font-size: 22px;
+        padding-bottom: 6px;
+    }
+
+    .text-area1 > p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .text-area2 > p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .text-area2 > ul > li {
+        font-size: 15px;
+        line-height: 24px;
+        padding-bottom: 5px;
+    }
+
+    .subpage-title > p {
+        font-size: 11px;
+    }
+
+    .subpage-title {
+        padding-bottom: 50px;
+    }
+
+    .text-area1 {
+        padding-bottom: 30px;
+    }
+
+    .text-area2 {
+        padding-bottom: 30px;
+    }
+
+    .footer-copyright > p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .footer-text > p {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .footer-copyright-link > ul > li > a {
+        font-size: 15px;
+    }
+
+    .footer-logo {
+        padding-bottom: 40px;
+        border-bottom: 1px solid  #212828;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-bg {
+        padding: 60px 0px;
+    }
+
 }
 
 
