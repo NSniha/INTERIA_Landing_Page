@@ -253,7 +253,7 @@
     }
 
     .service-heading > h3 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .service-details > p {
@@ -317,6 +317,14 @@
 
     .footer-top {
         padding-bottom: 60px;
+    }
+
+    .blog-details {
+        padding: 20px 10px;
+    }
+
+    .blog-details > p {
+        height: 80px;
     }
 }
 
@@ -489,7 +497,7 @@
     }
 
     .service-heading > h3 {
-        font-size: 34px;
+        font-size: 26px;
     }
 
     .service-section {
@@ -530,6 +538,14 @@
 
     .footer-list > ul {
         gap: 35px;
+    }
+
+    .blog-details > p {
+        height: 90px;
+    }
+
+    .blog-details {
+        padding: 20px 10px;
     }
 }
 
@@ -783,13 +799,13 @@
 
     
     .about-grid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
         gap: 25px;
+        flex-direction: column;
     }
 
     .about-title > p {
-        width: 85%;
+        width: 100%;
         padding-top: 12px;
     }
 
@@ -979,7 +995,7 @@
     }
 
     .form-input > input {
-        width: 300px;
+        width: 100%;
     }
 
     .form-flex {
@@ -1143,6 +1159,10 @@
         padding: 60px 0px;
     }
 
+    .blog-details {
+        padding: 20px 10px;
+    }
+
 }
 
 
@@ -1151,5 +1171,27 @@
         width: 100%;
         height: auto;
         max-width: 658px;
+    }
+
+    .about-image-2 > img {
+        width: 100%;
+    }
+
+    .countdown-details > p {
+        font-size: 14px;
+        letter-spacing: 3.88px;
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .countdown-details > p {
+        font-size: 13px;
+        letter-spacing: 3.88px;
+        padding: 0px 0px;
+    }
+
+    .about-image-2 > img {
+        width: 100%;
     }
 }
