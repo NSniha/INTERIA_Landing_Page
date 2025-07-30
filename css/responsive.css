@@ -253,7 +253,7 @@
     }
 
     .service-heading > h3 {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .service-details > p {
@@ -308,6 +308,7 @@
 
     .blog-grid {
         padding: 60px 0px 60px 0px;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .newsletter-section {
@@ -817,16 +818,37 @@
     }
 
     .about-image-2 > img{
-        width: 383px;
+        min-width: 330px;
+        width: 100%;
     }
 
     .countdown-flex {
-        display: flex;
+        display: grid;
         align-items: center;
         gap: 30px;
         padding-top: 20px;
         flex-direction: column;
         justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .countdown-details > p {
+        font-size: 12px;
+        letter-spacing: 3.88px;
+    }
+
+    .countdown-details > h3 {
+        font-size: 30px;
+    }
+
+    .brand-grid {
+        gap: 4px;
+    }
+
+    .brand-img > img {
+        width: 100%;
+        height: auto;
+        max-width: 75px;
     }
 
     .countdown-details {
@@ -839,7 +861,7 @@
     }
 
     .hire-bg {
-        border-radius: 0px;
+        border-radius: 50px 160px 0 0px;
         height: auto;
         padding-bottom: 50px;
     }
@@ -1050,5 +1072,14 @@
 
     .secondary-title {
         font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 490px){
+    .hire-img > img {
+        width: 100%;
+        height: auto;
+        max-width: 658px;
     }
 }
