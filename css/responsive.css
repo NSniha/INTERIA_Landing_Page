@@ -896,7 +896,7 @@
     .hire-details> h2 {
         padding-bottom: 44px;
         width: 100%;
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .hire-flex {
@@ -963,7 +963,7 @@
     }
 
     .service-heading > h3 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .service-section {
@@ -1088,7 +1088,7 @@
     }
 
     .secondary-title {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .subpage-section {
@@ -1161,6 +1161,10 @@
 
     .blog-details {
         padding: 20px 10px;
+    }
+
+    .service-details > p {
+        width: 100%;
     }
 
 }
